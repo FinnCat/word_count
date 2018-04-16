@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<h1>This is the count result</h1>
+
+<a href="{% url 'word_count' %}">Start Again</a>
+
+<!--<p> {{ words }}</p>-->
+<p>There are {{ len_text }} words in text: {{ words }}</p>
+
+<ul>
+    {% for word, count_tot in sortedwords %}
+        <li>
+        {{ word }}, {{ count_tot }}
+        </li>
+    {% endfor %}
+</ul>
+</body>
+</html>

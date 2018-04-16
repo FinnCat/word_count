@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<h1>No moron moro, tämä on template count-home.html </h1>
+<!--<a href="{% url 'about' %}" class="button">About this page</a><br>-->
+<form action="{% url 'about' %}"><input type="submit" value="About"></form>
+
+<h3>{{ greeting }}</h3>
+
+<form action="{% url 'name_res_count' %}">
+    <textarea cols="40" rows="10" name="fulltext"></textarea>
+    <br>
+    <input type="submit" value="Count!"/>
+</form>
+</body>
+</html>
