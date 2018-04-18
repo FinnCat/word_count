@@ -88,9 +88,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'wordcountdb',
         'USER': 'postgres',
-        'PASSWORD': 'postgres',
+        'PASSWORD': 'Postgre10',
         'HOST': '127.0.0.1',
-        'PORT': '5430',
+        'PORT': '5433',
     }
 }
 

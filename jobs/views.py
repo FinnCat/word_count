@@ -1,5 +1,7 @@
 from django.shortcuts import render, HttpResponse
+from .models import Job
 
 # Create your views here.
 def home(request):
-    return HttpResponse('Moro, tämä on Home page')
+    jobs = Job.objects
+    return render(request,'jobs/home.html', {'jobs': jobs})
