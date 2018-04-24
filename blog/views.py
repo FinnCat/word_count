@@ -1,4 +1,4 @@
-from django.shortcuts import render, HttpResponse
+from django.shortcuts import render, get_object_or_404, HttpResponse
 
 from .models import Blog
 
@@ -10,3 +10,8 @@ def list_blogs(request):
 def home_blog(request):
     blogs = Blog.objects
     return render(request, 'base.html', {'blogs':blogs})
+
+def detail_blog(request, blog_id):
+    deta_blog = get_object_or_404(Blog, pk=blog_id)
+
+    return render(request, 'blog-detail.html', {'dets_blog': deta_blog})

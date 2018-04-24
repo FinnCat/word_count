@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+
+
+{% block main %}
+        Body: {{ dets_blog.body }}
+        <br>
+        Summary: {{ dets_blog.summary }}
+
+    <h2>Tässä blog-detail mitä vittua</h2>
+    Title: {{ dets_blog.title }}
+    <br>
+    Avain: {{ dets_blog.pk  }}
+{% endblock main %}
+

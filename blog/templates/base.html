@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <!-- In order to be able to use static files the next line is essential -->
+    {% load staticfiles %}
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -20,9 +22,10 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav mr-auto">
           <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="#">Features</a>
+          <a class="nav-item nav-link" href="{% url 'blog_home' %}">Base</a>
           <a class="nav-item nav-link" href="{% url 'jobs_home' %}">Jobs</a>
           <a class="nav-item nav-link" href="{% url 'word_count' %}">Word Count</a>
+          <a class="nav-item nav-link" href="{% static 'ClintItäpuu.gif' %}">Clint</a>
           <a class="nav-item nav-link disabled" href="#">Disabled</a>
         </div>
         <div class="navbar-nav ml-auto">
@@ -37,6 +40,7 @@
     </nav>
     <!-- End of Navbar -->
 
+    {% block jumbo %}
     <section class="jumbotron text-center">
     <div class="container">
         <h1 class="jumbotron-heading"> Bootstrap 4</h1>
@@ -48,6 +52,14 @@
     </div>
 
     </section>
+    {% endblock jumbo %}
+
+    <div class="container pt-3">
+        {% block main %}
+        <h3>If you see this, something is wrong</h3>
+        {% endblock main %}
+    </div>
+
     <!-- Album -->
     <div class="album py-5 bg-light">
         <div class="container">
@@ -59,7 +71,9 @@
                     <img class="card-img-top" src="{{ blog.image.url }}"/>
                     <div class="card-body">
 
-                      <p class="card-text">{{ blog.body }}</p>
+                      <p class="card-text">{{ blog.summary }}</p>
+                        <br/>
+                      <p class="card-text">{{ blog.pub_date_pretty }}</p>
 
                     </div>
                   </div>

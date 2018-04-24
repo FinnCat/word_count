@@ -4,7 +4,7 @@ from operator import itemgetter
 # Create your views here.
 
 def count_words(request):
-    return render(request, 'count-home.html', {"greeting":"No hei, mitäpä kuuluu sinne korpeen?"})
+    return render(request, 'count-home.html', {"greeting":"No hei, mitäpä kuuluu, lasketaanko sanoja?"})
 
 def count_res(request):
     fulltext = request.GET['fulltext']
