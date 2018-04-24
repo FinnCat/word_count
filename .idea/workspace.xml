@@ -18,8 +18,8 @@
           <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/wordcount/settings.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1473">
-                  <caret line="141" lean-forward="true" selection-start-line="141" selection-end-line="141" />
+                <state relative-caret-position="525">
+                  <caret line="27" selection-start-line="27" selection-end-line="27" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -161,15 +161,15 @@
         <option value="$PROJECT_DIR$/blog/models.py" />
         <option value="$PROJECT_DIR$/blog/urls.py" />
         <option value="$PROJECT_DIR$/blog/templates/blog-detail.html" />
-        <option value="$PROJECT_DIR$/wordcount/settings.py" />
         <option value="$PROJECT_DIR$/blog/templates/base.html" />
         <option value="$PROJECT_DIR$/blog/views.py" />
+        <option value="$PROJECT_DIR$/wordcount/settings.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1564" />
-    <option name="y" value="211" />
+    <option name="x" value="351" />
+    <option name="y" value="247" />
     <option name="width" value="1736" />
     <option name="height" value="1745" />
   </component>
@@ -191,12 +191,6 @@
               <item name="wordcount_proj" type="b2602c69:ProjectViewProjectNode" />
               <item name="wordcount_proj" type="462c0819:PsiDirectoryNode" />
               <item name="wordcount" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wordcount_proj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordcount_proj" type="462c0819:PsiDirectoryNode" />
-              <item name="wordcount" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wordcount_proj" type="b2602c69:ProjectViewProjectNode" />
@@ -271,7 +265,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1043" y="141" width="1157" height="1163" extended-state="0" />
+    <frame x="234" y="165" width="1157" height="1163" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20357142" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -501,17 +496,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wordcount/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1473">
-          <caret line="141" lean-forward="true" selection-start-line="141" selection-end-line="141" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/count/templates/count-home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordcount/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="27" selection-start-line="27" selection-end-line="27" selection-end-column="18" />
         </state>
       </provider>
     </entry>
