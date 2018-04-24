@@ -11,7 +11,7 @@ class Blog(models.Model):
     image = models.ImageField(upload_to='images/')
 
     def __str__(self):
-        return f'{self.pub_date}...{self.title}'
+        return self.pub_date + '...' + self.title
 
     def summary(self):
         texti = self.body[:100]
