@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c19bb21-aadf-496e-8875-7339976812e8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog-detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordcount/static/ClintItäpuu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordcount/static/eiolejumalansuunnitelma.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordcount/static/pig.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/count/templates/count-home.html" beforeDir="false" afterPath="$PROJECT_DIR$/count/templates/count-home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/count/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/count/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobs/templates/jobs/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/templates/jobs/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/wordcount/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -140,7 +128,7 @@
             <entry file="file://$PROJECT_DIR$/count/templates/count-home.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="425">
-                  <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+                  <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
                 </state>
               </provider>
             </entry>
@@ -180,10 +168,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
-    <option name="y" value="1" />
-    <option name="width" value="1544" />
-    <option name="height" value="1653" />
+    <option name="x" value="1564" />
+    <option name="y" value="211" />
+    <option name="width" value="1736" />
+    <option name="height" value="1745" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -283,16 +271,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="1" width="1029" height="1102" extended-state="0" />
+    <frame x="1043" y="141" width="1157" height="1163" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22983871" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20357142" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.1840796" side_tool="true" weight="0.5978112" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32973945" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.22202949" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.8159204" visible="true" weight="0.124223605" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.8159204" visible="true" weight="0.38753653" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -476,13 +464,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/count/templates/count-home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wordcount/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -524,6 +505,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1473">
           <caret line="141" lean-forward="true" selection-start-line="141" selection-end-line="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/count/templates/count-home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
         </state>
       </provider>
     </entry>
